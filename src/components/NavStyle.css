@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #212121 ;
+  color: whitesmoke;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 16px;
+  width: 85%;
+  border-radius: 20px;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  cursor: pointer;
+
+  padding: 10px;
+  position: relative;
+  transform: scale(1);
+}
+
+.navbar ul li:hover{
+  transition: 0.4s;
+  transform: scale(1.1);
+}
