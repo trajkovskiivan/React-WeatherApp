@@ -8,14 +8,6 @@ const CityComponent = (props) => {
   let currentWeatherData = {};
   let cityName;
   let icon;
-  let situations = {
-    sky: 1,
-    rain: 1,
-    clouds: 1,
-    thunderstorm: 1,
-    snow: 1,
-    mist: 1,
-  };
 
   if (city && fullData) {
     cityName = city.name;
