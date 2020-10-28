@@ -1,6 +1,7 @@
 import React from 'react';
 
-const calculateStatistics = require("../functions/caluclateStatistics")
+// const calculateStatistics = require("../functions/caluclateStatistics")
+import calculateStatistics from '../functions/caluclateStatistics';
 
 const CurrentWeather = (props) => {
   const {fullData} = props;

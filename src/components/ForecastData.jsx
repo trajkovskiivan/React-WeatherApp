@@ -3,7 +3,7 @@ import ForecastDay from './ForecastDay';
 
 
 const ForecastData = (props) => {
-  const {fullData} = props; let s;
+  const {fullData} = props;
 
   return (
     <div className="forecast-days">

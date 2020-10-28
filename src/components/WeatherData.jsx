@@ -1,5 +1,4 @@
 import React from 'react';
-import WeatherDataComponent from './WeatherDataComponent'
 import CurrentWeather from './CurrentWeather';
 import CityComponent from './CityComponent'
 import './CurrentWeather.scss'
@@ -7,7 +6,6 @@ import ForecastData from './ForecastData';
 
 
 const WeatherData = (props) => {
-  const today = new Date().getFullYear();
   let fullData = [];
   let {city} = props
 
