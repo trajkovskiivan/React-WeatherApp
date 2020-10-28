@@ -56,7 +56,7 @@ const renderImageFromSingle = (data) => {
 }
 
 const setSituations = (arr, situation) => {
-  arr.map(el => {
+  arr.forEach(el => {
     if (el.includes('sky') === true) {
       situation.sky++;
     }
